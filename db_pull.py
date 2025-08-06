@@ -2,6 +2,10 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import pandas as pd
 import os
+import logging
+from logger import set_logger
+
+logger = set_logger('db_logger', 'logs.txt',logging.DEBUG)
 
 load_dotenv()
 
@@ -13,4 +17,4 @@ def get_data():
   return df
 
 
-print(get_data())
+logger.info(f'there are total number of rows {get_data().head()}')
