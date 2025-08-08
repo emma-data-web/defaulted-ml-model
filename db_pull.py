@@ -8,7 +8,7 @@ from logger import set_logger
 logger = set_logger('db_logger', 'logs.txt',logging.DEBUG)
 
 load_dotenv()
-
+#get the data
 def get_data():
   db_url = f"mysql+pymysql://{os.getenv('db_username')}:{os.getenv('db_password')}@{os.getenv('db_host')}:{os.getenv('db_port')}/{os.getenv('db_database')}"
   engine = create_engine(db_url)

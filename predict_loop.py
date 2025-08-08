@@ -34,5 +34,5 @@ df_pred = pd.DataFrame({
 engine = get_engine()
 df_pred.to_sql('preditions_table', con=engine, if_exists='append', index=False)
 
-print("✅ Predictions saved.")
+
 print("Columns:", df_new.columns.tolist())

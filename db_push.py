@@ -18,7 +18,7 @@ def get_engine():
 
 
 
-  #query to get only new rows!
+ 
 def get_new_data():
     try:
         engine = get_engine()
@@ -32,13 +32,13 @@ def get_new_data():
 
         df = pd.read_sql(query, engine)
 
-        logger.info("🔍 get_new_data() pulled:", df.shape)
+        logger.info(" get_new_data() pulled:", df.shape)
         logger.info(df.tail())  # Show last few rows
 
         return df
 
     except Exception as e:
-        logger.error("❌ Error in get_new_data():", e)
+        logger.error(" Error in get_new_data():", e)
         return pd.DataFrame()  # Return empty DataFrame to prevent crash
 
 logger.info('working!!!')

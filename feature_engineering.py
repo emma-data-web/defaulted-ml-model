@@ -22,4 +22,3 @@ def add_feature(df):
 df_test = df.copy()
 new_data = add_feature(df_test)
 
-print(new_data)
