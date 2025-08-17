@@ -11,18 +11,6 @@ logging.basicConfig(
 
 
 
-def man(a,b):
-  logging.info('started the fuction!!!')
-  try:
-    result = a/b
-    logging.info(f'trying to divide {a} againt {b} to = {result}')
-    logging.warning('pls alway avoid diving by zero')
-  except Exception as e:
-    logging.error(f'if it didnt work, then this is the error{e}')
-    result = None
-  return  result
-
-print(man(2,1))
 
 import logging
 
