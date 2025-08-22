@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+# Ignore local data
+*.csv
+*.xlsx
+*.log
+
+# Ignore git stuff
+.git
+.gitignore
