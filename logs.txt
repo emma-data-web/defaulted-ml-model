@@ -1,106 +1,16 @@
-db_logger - 2025-08-17 06:25:33,710 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
+db_logger - 2025-08-18 08:57:06,878 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
 0      1         1       8754.36      532339.56         0.0
 1      2         0       9806.16      145273.56         0.0
 2      3         1      12882.60      381205.68         0.0
 3      4         1       6351.00      428453.88         0.0
 4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:27:09,245 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
+db_logger - 2025-08-18 09:00:15,751 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
 0      1         1       8754.36      532339.56         0.0
 1      2         0       9806.16      145273.56         0.0
 2      3         1      12882.60      381205.68         0.0
 3      4         1       6351.00      428453.88         0.0
 4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:30:09,763 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:32:45,085 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:33:44,284 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:41:10,481 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:43:19,632 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:45:52,024 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:46:40,721 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:47:08,390 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:48:18,950 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:51:10,251 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 06:53:32,091 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 07:10:06,258 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 07:12:22,039 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 07:52:40,925 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 07:54:22,966 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
-0      1         1       8754.36      532339.56         0.0
-1      2         0       9806.16      145273.56         0.0
-2      3         1      12882.60      381205.68         0.0
-3      4         1       6351.00      428453.88         0.0
-4      5         1       9427.92      461562.00         0.0
-db_logger - 2025-08-17 07:57:54,599 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
+db_logger - 2025-08-18 09:12:04,636 - INFO - there are total number of rows    Index  Employed  Bank Balance  Annual Salary  Defaulted?
 0      1         1       8754.36      532339.56         0.0
 1      2         0       9806.16      145273.56         0.0
 2      3         1      12882.60      381205.68         0.0
