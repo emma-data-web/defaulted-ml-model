@@ -20,7 +20,7 @@ from datetime import datetime
 from joblib import load
 from db_push import get_new_data, get_engine
 
-# Load your trained pipeline
+# Loaded th trained model
 grid = load('pipeline.pkl')
 model = grid.best_estimator_
 
@@ -32,7 +32,7 @@ while True:
     if not df_new.empty:
         logger.info(f"Found {len(df_new)} new rows.")
 
-        # Drop target column if it exists (e.g., when testing with labeled data)
+        # Drop target column, it exist when i call the database function
         X_new = df_new.drop(columns=['Defaulted?'], errors='ignore')
         logger.info(f"df_new shape:, {df_new.shape}")
         logger.info(f"df_new head: {df_new.head}")
@@ -40,7 +40,7 @@ while True:
             try:
                 predictions = model.predict(X_new)
 
-                # Prepare results
+                # Preparing result, i have a table in the databe with this columns already
                 df_pred = pd.DataFrame({
                     'Index': df_new['Index'],
                     'predictions': predictions,
@@ -60,5 +60,5 @@ while True:
     else:
         logger.info("No new data found.\n")
 
-    time.sleep(60)  # Wait 10 seconds before checking again
+    time.sleep(60)  # Wait 60 seconds and checks for new rows
 
