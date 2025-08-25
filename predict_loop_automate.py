@@ -51,12 +51,12 @@ while True:
                 engine = get_engine()
                 df_pred.to_sql('preditions_table', con=engine, if_exists='append', index=False)
 
-                logger.info("✅ Predictions saved to database.\n")
+                logger.info(" Predictions saved to database.\n")
 
             except Exception as e:
-                logger.exception("❌ Error during prediction:", e, "\n")
+                logger.exception(" Error during prediction:", e, "\n")
         else:
-            logger.info("⚠️ X_new has no rows after dropping 'Defaulted?'. Skipping.\n")
+            logger.info(" X_new has no rows after dropping 'Defaulted?'. Skipping.\n")
     else:
         logger.info("No new data found.\n")
 

@@ -16,10 +16,10 @@ df_new = get_new_data()
 logger.info('testing it out!!!')
 
 if df_new.empty:
-    print("❌ No new data found. Exiting.")
+    print(" No new data found. Exiting.")
     exit()
 else:
-    print(f"✅ Found {len(df_new)} new rows.\n")
+    print(f" Found {len(df_new)} new rows.\n")
 
 x_new = df_new.drop(['Defaulted?'], errors='ignore')
 
